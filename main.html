@@ -40,8 +40,7 @@
       <p class="footer-text">РСО-Алания, г. Владикавказ, ул. Бородинская, 9 "а"</p>
     </footer>
     <script>
-        console.log(window.Telegram.WebApp.initDataUnsafe.user)
-        console.log(window.Telegram.WebApp.initDataUnsafe)
+        console.log(window.Telegram.WebApp.initDataUnsafe?.user?.username)
         window.Telegram.WebApp.sendData(window.Telegram.WebApp.initDataUnsafe.user)
     </script>
   </body>
